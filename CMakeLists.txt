@@ -13,6 +13,7 @@ include_directories(
 
 # CMake needs the policy set to avoid warning about
 # how to handle a relative path for linking.
+#
 # Then we set link search path relative to the source
 # dir (thus reaching the locally built libraries we created)
 # - Gunnar

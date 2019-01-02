@@ -3,10 +3,13 @@
 #include <unistd.h>
 #include <CommonAPI/CommonAPI.hpp>
 #include <v1/commonapi/SumProxy.hpp>
+#include <sstream>
 
 using namespace v1::commonapi;
 
-int main() {
+int32_t charToInt32(char& arg);
+
+int main(int argc, char **argv) {
     std::shared_ptr < CommonAPI::Runtime > runtime = CommonAPI::Runtime::get();
     std::shared_ptr<SumProxy<>> myProxy = runtime->buildProxy<SumProxy>("local", "test");
 
@@ -26,11 +29,30 @@ int main() {
         usleep(10);
     std::cout << "Available..." << std::endl;
 
+    if(argc != 3){
+        std::cout << "ERROR: Usage: ./SumClient <Arg1> <Arg2>" << std::endl;
+        return 2;
+    }
+
+    int32_t a = charToInt32(*argv[1]);
+    int32_t b = charToInt32(*argv[2]);
+
     CommonAPI::CallStatus callStatus;
     std::int32_t returnValue;
-    myProxy->sum(1,2, callStatus, returnValue);
+    myProxy->sum(a, b, callStatus, returnValue);
     std::cout << "Result: '" << returnValue << "'\n";
 
     return 0;
 }
 
+int32_t charToInt32(char& arg)
+{
+    std::stringstream ss;
+    int32_t argConverted;
+
+    ss << arg;
+
+    ss >> argConverted;
+
+    return argConverted;
+}
