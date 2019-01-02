@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SumClient">
+				<Option output="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/SumClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src-gen"/>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/../capicxx-core-runtime/include"/>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/../capicxx-dbus-runtime/include"/>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/../dbus-1.10.10"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 SumClient"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SumClient/fast">
+				<Option output="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/SumClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src-gen"/>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/../capicxx-core-runtime/include"/>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/../capicxx-dbus-runtime/include"/>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/../dbus-1.10.10"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 SumClient/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SumService">
+				<Option output="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/SumService" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src-gen"/>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/../capicxx-core-runtime/include"/>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/../capicxx-dbus-runtime/include"/>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/../dbus-1.10.10"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 SumService"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SumService/fast">
+				<Option output="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/SumService" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src-gen"/>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/../capicxx-core-runtime/include"/>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/../capicxx-dbus-runtime/include"/>
+					<Add directory="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/../dbus-1.10.10"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 SumService/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src-gen/v1/commonapi/SumDBusDeployment.cpp">
+			<Option target="SumClient"/>
+			<Option target="SumService"/>
+		</Unit>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src-gen/v1/commonapi/SumDBusDeployment.hpp">
+			<Option target="SumClient"/>
+			<Option target="SumService"/>
+		</Unit>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src-gen/v1/commonapi/SumDBusProxy.cpp">
+			<Option target="SumClient"/>
+		</Unit>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src-gen/v1/commonapi/SumDBusProxy.hpp">
+			<Option target="SumClient"/>
+		</Unit>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src-gen/v1/commonapi/SumDBusStubAdapter.cpp">
+			<Option target="SumService"/>
+		</Unit>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src-gen/v1/commonapi/SumDBusStubAdapter.hpp">
+			<Option target="SumService"/>
+		</Unit>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src-gen/v1/commonapi/SumStubDefault.cpp">
+			<Option target="SumService"/>
+		</Unit>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src-gen/v1/commonapi/SumStubDefault.hpp">
+			<Option target="SumService"/>
+		</Unit>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src/SumClient.cpp">
+			<Option target="SumClient"/>
+		</Unit>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src/SumService.cpp">
+			<Option target="SumService"/>
+		</Unit>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src/SumStubImpl.cpp">
+			<Option target="SumService"/>
+		</Unit>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/src/SumStubImpl.hpp">
+			<Option target="SumService"/>
+		</Unit>
+		<Unit filename="/home/luisfilipedias/01_CTW/02_Work/01_Capi/01_hello_world/batch/sum/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
